@@ -1,3 +1,4 @@
+
 package gui;
 
 import ExtraFunctions.*;
@@ -207,8 +208,8 @@ public class Plot extends JPanel implements MouseMotionListener {
 		return -1;
 	}
 
-	public void mouseMoved(MouseEvent me) { // This method implements the change of CursorStyle when mouse is moved over
-		// a vertex
+	public void mouseMoved(MouseEvent me) { // This method implements the change of CursorStyle when mouse is moved over a vertex
+		
 		int x = me.getX();
 		int y = me.getY();
 
