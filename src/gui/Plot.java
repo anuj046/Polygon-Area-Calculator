@@ -44,7 +44,7 @@ public class Plot extends JPanel implements MouseMotionListener {
 	private JButton reset = new JButton("RESET");
 	private JButton GOBack = new JButton("GO BACK");
 	public Plot(JFrame jFrame,int scale) {
-		setSize(1200, 700);
+		setSize(1180, 690);
 		setBackground(c2);
 		setLayout(new BorderLayout());
 		if(scale%2==0)
